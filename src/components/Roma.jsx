@@ -1,14 +1,14 @@
-import roma from '../assets/img/roma.jpg'
-import PropTypes from 'prop-types'
+import roma from '../assets/img/roma.jpg';
+import PropTypes from 'prop-types';
 
 
-export const Roma = ( {props} ) => {
+export const Roma = ( { className } ) => {
   return (
     <img src= { roma } alt="Coliseo Romano Roma, Italia" 
-    className= {props.className}  />
+    className= {className}  />
   )
 }
 
-Roma.PropTypes = {
+Roma.propTypes = {
     className: PropTypes.string
 }

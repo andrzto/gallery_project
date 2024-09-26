@@ -1,14 +1,14 @@
-import moscu from '../assets/img/moscu.jpg'
-import PropTypes from 'prop-types'
+import moscu from '../assets/img/moscu.jpg';
+import PropTypes from 'prop-types';
 
 
-export const Moscu = ( {props} ) => {
+export const Moscu = ( { className } ) => {
   return (
     <img src= { moscu } alt="Plaza Roja Moscú, Rusia" 
-    className= {props.className}  />
+    className= {className}  />
   )
 }
 
-Moscu.PropTypes = {
+Moscu.propTypes = {
     className: PropTypes.string
 }

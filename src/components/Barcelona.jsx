@@ -1,14 +1,14 @@
-import barcelona from '../assets/img/barcelona.jpg'
-import PropTypes from 'prop-types'
+import barcelona from '../assets/img/barcelona.jpg';
+import PropTypes from 'prop-types';
 
 
-export const Barcelona = ( {props} ) => {
+export const Barcelona = ( { className } ) => {
   return (
     <img src= { barcelona } alt="Sagrada Familia Barcelona, España" 
-    className= {props.className}  />
+    className= {className}  />
   )
 }
 
-Barcelona.PropTypes = {
+Barcelona.propTypes = {
     className: PropTypes.string
 }

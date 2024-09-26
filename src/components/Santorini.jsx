@@ -1,14 +1,14 @@
-import santorini from '../assets/img/santorini.jpg'
-import PropTypes from 'prop-types'
+import santorini from '../assets/img/santorini.jpg';
+import PropTypes from 'prop-types';
 
 
-export const Santorini = ( {props} ) => {
+export const Santorini = ( { className } ) => {
   return (
     <img src= { santorini } alt="Paisaje de Santorini, Grecia" 
-    className= {props.className}  />
+    className= {className}  />
   )
 }
 
-Santorini.PropTypes = {
+Santorini.propTypes = {
     className: PropTypes.string
 }
